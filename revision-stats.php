@@ -14,7 +14,7 @@ wp_enqueue_style("revision_stats", $dir . "/" . "styles.e12c2598acce6741fd25.css
 return "<revision-stats></revision-stats>" .
     "<script type=\"text/javascript\" src=\"" . $dir . "/runtime.4ccf67c919f9077afc3e.js\"></script>" .
     "<script type=\"text/javascript\" src=\"" . $dir . "/polyfills.f6ae3e8b63939c618130.js\"></script>" .
-    "<script type=\"text/javascript\" src=\"" . $dir . "/main.23bca382f4b36cc02732.js\"></script>";
+    "<script type=\"text/javascript\" src=\"" . $dir . "/main.f1157bf21cd4b076ba75.js\"></script>";
 }
 add_shortcode('revision_stats', 'add_revision_stats');
 ?>
